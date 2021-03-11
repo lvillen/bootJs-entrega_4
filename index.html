@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">
+            Calculator
+        </h1>
+        <h2 class="subtitle">
+            Do your maths easy with Calculator!
+        </h2>
+    </header>
+    <main class="wrapper">
+        <div class="number-input">
+            <label for="numA">First number</label>
+            <input type="number" name="numA" id="numA">
+            <label for="numB">Second number</label>
+            <input type="number" name="numB" id="numB">
+        </div>
+        <div class="operands">
+            <input type="button" value="+" id="sum-btn">
+            <input type="button" value="-" id="substract-btn">
+            <input type="button" value="x" id="multiply-btn">
+            <input type="button" value="%" id="divide-btn">
+        </div>
+        <div class="result">
+            <h3 id="result"></h3>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
